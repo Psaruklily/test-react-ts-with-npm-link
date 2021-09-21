@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Greeter from 'mycomp';
 
 function App() {
+  Greeter('Lili');
   return (
     <div className="App">
       <header className="App-header">
